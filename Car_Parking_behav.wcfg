@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Car_Parking_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Car_Parking" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1400000001fs"></ZoomEndTime>
+      <Cursor1Time time="1259195000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/Car_Parking/Cars" type="array">
+      <obj_property name="ElementShortName">Cars[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Cars[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Car_Parking/num" type="array">
+      <obj_property name="ElementShortName">num[3:0]</obj_property>
+      <obj_property name="ObjectShortName">num[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Car_Parking/avail" type="array">
+      <obj_property name="ElementShortName">avail[3:0]</obj_property>
+      <obj_property name="ObjectShortName">avail[3:0]</obj_property>
+   </wvobject>
+</wave_config>
